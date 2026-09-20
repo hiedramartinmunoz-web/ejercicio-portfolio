@@ -1,0 +1,147 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    max-width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+/*todo contenedor izuiqerda*/
+
+.izquierda{
+
+    background-color: rgb(49, 49, 49);
+    width: 20%;   
+}
+
+.contenedor-izquierda{
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+.botones{
+
+    direction: column;
+
+}
+
+.btn{
+
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(92, 92, 92);
+    height: 35px;
+    border: none;
+  
+}
+
+.btn a{
+
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+
+
+.logo{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid rgb(177, 252, 58);
+    
+}
+
+.nombre__izquierda{
+
+    color: rgb(223, 223, 223);
+    margin-top: 20px;
+    font-size: 1.9rem;
+}
+
+
+.subtitulo__izquierda{
+
+    color: rgb(223, 223, 223);
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+
+
+
+/*todo contenedor derecha*/
+.contenedor-derecha{
+
+    margin-top: 300px;
+    margin-left: 50px;
+    
+}
+
+.derecha{
+
+    background-color: rgb(29, 29, 29);
+    width: 80%;
+}
+
+.titulo-derecha{
+
+color: rgb(223, 223, 223);
+font-size: 2.5rem;
+
+}
+
+.subtitulo-derecha{
+
+    color: rgb(223, 223, 223);
+    font-size: 1.8rem;
+}
+
+.nombre{
+
+    color: rgb(177, 252, 58);
+}
+
+
+
+.descripcion__derecha{
+
+
+     color: rgb(223, 223, 223);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.parrafo{
+
+    text-align: justify;
+}
+
+.btn-link{
+
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+
+.btn-button{
+
+    background-color: rgb(92, 92, 92);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.fas{
+
+    margin-left: 10px;
+    color: rgb(177, 252, 58);
+}
